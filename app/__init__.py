@@ -147,7 +147,7 @@ def iconfilter(value):
         {'rule': r'(羽球)', 'icon': 'shuttlecock'},
         {'rule': r'(口琴)', 'icon': 'harmonica'},
         {'rule': r'(射箭)', 'icon': 'target'},
-        {'rule': r'(武術)', 'icon': 'karate'},
+        {'rule': r'(鍵盤)', 'icon': 'karate'},
         {'rule': r'(烏克麗麗)', 'icon': 'ukelele'},
         {'rule': r'(籃球)', 'icon': 'basketball'},
         {'rule': r'(竹笛)', 'icon': 'flute'},
@@ -160,6 +160,10 @@ def iconfilter(value):
         {'rule': r'(油畫)', 'icon': 'paint-brush'},
         {'rule': r'(樹脂土)', 'icon': 'pottery-man'},
         {'rule': r'(壘球|棒球)', 'icon': 'baseball'},
+        {'rule': r'(提琴)', 'icon': 'violin'},
+        {'rule': r'(功夫|武術)', 'icon': 'martial-arts'},
+        {'rule': r'(版畫|水墨)', 'icon': 'rgb'},
+        {'rule': r'(體適能)', 'icon': 'gymnastics'},
     ]
 
     for m in maps:
@@ -177,10 +181,10 @@ def studenttagfilter(value):
 
         'D': u'舞蹈班',
         'H': u'口琴班舊生',
-        'P': u'鋼琴合奏舊生',
+        'P': u'鍵盤舊生',
 
-        'X': u'舞蹈班、鋼琴合奏舊生',
-        'Y': u'口琴班舊生、鋼琴合奏舊生',
+        'X': u'舞蹈班、鍵盤舊生',
+        'Y': u'口琴班舊生、鍵盤舊生',
         'Z': u'舞蹈班、口琴班舊生',
 
         'DX': u'舞蹈班',
@@ -193,18 +197,19 @@ def studenttagfilter(value):
         'YZ': u'口琴班舊生',
         'HYZ': u'口琴班舊生',
 
-        'PX': u'鋼琴合奏舊生',
-        'PY': u'鋼琴合奏舊生',
-        'XY': u'鋼琴合奏舊生',
-        'PXY': u'鋼琴合奏舊生',
+        'PX': u'鍵盤舊生',
+        'PY': u'鍵盤舊生',
+        'XY': u'鍵盤舊生',
+        'PXY': u'鍵盤舊生',
     }
 
     result = ""
 
-    if tags.has_key(value):
-        result = tags[value]
-    else:
-        result = value
+    for c in list(value):
+        if tags.has_key(c):
+            result += tags[c]
+        else:
+            result += c
 
     return result
 
