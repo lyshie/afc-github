@@ -223,6 +223,16 @@ directory=/deploy/afc-github
 # docker run -d -p 80:80 lyshie/nginx-gunicorn-flask-afc
 ```
 
+更新至最新版本
+```bash
+# docker run -t -p 80:80 lyshie/nginx-gunicorn-flask-afc /bin/bash
+# cd /deploy/afc-github
+# git pull
+# exit
+# docker commit --change='CMD ["/usr/bin/supervisord"]' -m "Update afc-github from GitHub" -a "Myself" [CONTAINER ID]
+# docker run -d -p 80:80 [IMAGE ID]
+```
+
 ## 5. 使用 virtualenv 配置
 [部署在臺南市飛番雲 IaaS 平台](https://github.com/lyshie/afc-github/blob/master/tn_iaas.md)
 
