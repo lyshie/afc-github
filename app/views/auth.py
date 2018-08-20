@@ -87,7 +87,7 @@ def error_page(error_title=lazy_gettext('Error'), errors=[]):
 
 
 @app.route("/login", methods=["GET", "POST"])
-@datetime_required
+#@datetime_required
 def login():
     if g.user and g.user.is_authenticated:
         return redirect(url_for("index"))
