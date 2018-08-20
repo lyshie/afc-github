@@ -69,6 +69,7 @@ jQuery.noConflict();
     <!-- panel-body -->
 
 </div>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.richtext.min.js') }}"></script>
 <script type="text/javascript">
 jQuery.noConflict();
 (function($) {
@@ -115,6 +116,25 @@ jQuery.noConflict();
                 }
             }
             $('#grades').val(result);
+        });
+
+        // RichText editor for description field
+        $('#description').richText({
+            leftAlign: false,
+            centerAlign: false,
+            rightAlign: false,
+            justify: false,
+            heading: false,
+            fonts: false,
+            fontColor: true,
+            fontSize: false,
+            imageUpload: false,
+            fileUpload: false,
+            videoEmbed: false,
+            urls: false,
+            table: false,
+
+            height: 80
         });
     });
 })(jQuery);
