@@ -12,8 +12,9 @@ from app.tools.log import logging
 from flask_login import login_required
 from flask import render_template, url_for, redirect, request, flash, abort, g
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, TextAreaField, SelectField, IntegerField, BooleanField, TextField
+from wtforms import StringField, SubmitField, TextAreaField, SelectField, BooleanField, TextField
 from wtforms.validators import DataRequired
+from wtforms.fields.html5 import IntegerField, TelField
 from flask_wtf.file import FileField,  FileAllowed,  FileRequired
 from flask_babel import gettext as _, lazy_gettext
 from sqlalchemy import func
