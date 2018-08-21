@@ -8,6 +8,7 @@ from flask import render_template, url_for, redirect, request, abort, flash, g
 from flask_wtf import FlaskForm, RecaptchaField
 from wtforms import TextField, SelectField, PasswordField, SubmitField, HiddenField
 from wtforms.validators import DataRequired
+from wtforms.fields.html5 import IntegerField, TelField
 from app.authenticator import StudentAuthenticator
 from flask_babel import gettext as _, lazy_gettext
 from datetime import datetime
@@ -51,7 +52,7 @@ class LoginForm(FlaskForm):
         lazy_gettext("Grade"), choices=[('0', lazy_gettext('Kindergarten')), ('1', lazy_gettext('1st grade')), ('2', lazy_gettext('2nd grade')), ('3', lazy_gettext('3rd grade')), ('4', lazy_gettext('4th grade')), ('5', lazy_gettext('5th grade')), ('6', lazy_gettext('6th grade'))])
     student_class = SelectField(
         lazy_gettext("Class"), choices=[('1', lazy_gettext('Penguin')), ('2', lazy_gettext('Rabbit')), ('3', lazy_gettext('Zebra')), ('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'), ('6', '6')])
-    student_number = TextField(
+    student_number = IntegerField(
         lazy_gettext("Number"), validators=[DataRequired()], render_kw={'placeholder': lazy_gettext('1, 2, ...')})
     ''' omit the name field
     student_name = TextField(
