@@ -168,7 +168,7 @@ def main():
 
         chunk = {'課程編號': str(i).encode("UTF-8"),
                 '課程名稱': re.sub(u'[\n\r\s]', u'', line[0]).encode("UTF-8"),
-                '課程敘述': re.sub(u'[\n\r\s]', u'', line[0]).encode("UTF-8"),
+                '課程敘述': re.sub(u'^[\d\s]+?元', u'', line[3]).encode("UTF-8"),
                 '教室': re.sub(u'[\n\r\s]', u'', line[4]).encode("UTF-8"),
                 '收費價格': str(cost).encode("UTF-8"),
                 '教師': teach.encode("UTF-8"),
