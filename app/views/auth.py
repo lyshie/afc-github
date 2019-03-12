@@ -59,7 +59,7 @@ class LoginForm(FlaskForm):
         lazy_gettext("Name"), validators=[DataRequired()], render_kw={'placeholder': lazy_gettext('Chinese name')})
     '''
     password = PasswordField(
-        lazy_gettext("Password"), validators=[DataRequired()], render_kw={'placeholder': lazy_gettext('Last 4 digits')})
+        lazy_gettext("Password"), validators=[DataRequired()], render_kw={'placeholder': lazy_gettext('Last 4 digits'), 'autocomplete': 'off'})
     recaptcha = RecaptchaField()
     submit = SubmitField(lazy_gettext("Login"))
     next = HiddenField("Next")
