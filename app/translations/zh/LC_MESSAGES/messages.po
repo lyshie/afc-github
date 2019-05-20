@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-02-19 11:23+0800\n"
+"POT-Creation-Date: 2019-05-20 20:35+0800\n"
 "PO-Revision-Date: 2014-12-09 13:40+0800\n"
 "Last-Translator: HSIEH, Li-Yi <lyshie@tn.edu.tw>\n"
 "Language: zh\n"
@@ -16,105 +16,113 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.6.0\n"
 
-#: app/__init__.py:127 app/views/admin.py:72
+#: app/__init__.py:129 app/views/admin.py:73
 msgid "Normal"
 msgstr "一般"
 
-#: app/__init__.py:128 app/templates/course.html:48
-#: app/templates/course_list.html:45 app/views/admin.py:72
+#: app/__init__.py:130 app/templates/course.html:50
+#: app/templates/course_list.html:47 app/views/admin.py:73
 msgid "Suspended"
 msgstr "暫停"
 
-#: app/__init__.py:129 app/views/admin.py:72
+#: app/__init__.py:131 app/views/admin.py:73
 msgid "Test"
 msgstr "測試"
 
 #: app/templates/admin_course_list.html:4 app/templates/layout/menu.html:38
+#: app/templates/layout/nav.html:54
 msgid "Course list"
 msgstr "課程列表"
 
 #: app/templates/admin_course_list.html:40
-#: app/templates/admin_task_history_list.html:49 app/templates/course.html:80
-#: app/templates/course_list.html:80 app/templates/selection.html:117
+#: app/templates/admin_task_history_list.html:49 app/templates/course.html:82
+#: app/templates/course_list.html:82 app/templates/selection.html:117
+msgid "No data available in table"
+msgstr "表格中沒有資料"
+
+#: app/templates/admin_course_list.html:41
+#: app/templates/admin_task_history_list.html:50 app/templates/course.html:83
+#: app/templates/course_list.html:83 app/templates/selection.html:118
 msgid "Search in table:"
 msgstr "在表格中搜尋："
 
-#: app/templates/admin_course_list.html:50
+#: app/templates/admin_course_list.html:51
 msgid "Student list"
 msgstr "學生清單"
 
-#: app/templates/admin_course_list.html:57
+#: app/templates/admin_course_list.html:58
 #: app/templates/admin_task_payment.html:31 app/templates/course.html:3
 #: app/templates/course.html:10 app/templates/create_selection.html:15
-#: app/templates/selection.html:17 app/views/admin.py:43 app/views/admin.py:48
-#: app/views/admin.py:196
+#: app/templates/selection.html:17 app/views/admin.py:44 app/views/admin.py:49
+#: app/views/admin.py:197
 msgid "Course"
 msgstr "課程"
 
-#: app/templates/admin_course_list.html:58
-#: app/templates/create_selection.html:31 app/views/admin.py:68
+#: app/templates/admin_course_list.html:59
+#: app/templates/create_selection.html:31 app/views/admin.py:69
 msgid "Lower limit"
 msgstr "下限"
 
-#: app/templates/admin_course_list.html:59
-#: app/templates/create_selection.html:35 app/views/admin.py:66
+#: app/templates/admin_course_list.html:60
+#: app/templates/create_selection.html:35 app/views/admin.py:67
 msgid "Upper limit"
 msgstr "上限"
 
-#: app/templates/admin_course_list.html:63
+#: app/templates/admin_course_list.html:64
 #: app/templates/admin_task_history_list.html:15
 #: app/templates/selection.html:16
 msgid "No."
 msgstr "編號"
 
-#: app/templates/admin_course_list.html:64
+#: app/templates/admin_course_list.html:65
 #: app/templates/admin_task_payment.html:14
 #: app/templates/admin_task_payment.html:65 app/templates/user.html:19
-#: app/views/auth.py:51
+#: app/views/auth.py:52
 msgid "Grade"
 msgstr "年級"
 
-#: app/templates/admin_course_list.html:65
+#: app/templates/admin_course_list.html:66
 #: app/templates/admin_task_payment.html:15
 #: app/templates/admin_task_payment.html:66 app/templates/user.html:24
-#: app/views/auth.py:53
+#: app/views/auth.py:54
 msgid "Class"
 msgstr "班級"
 
-#: app/templates/admin_course_list.html:66
+#: app/templates/admin_course_list.html:67
 #: app/templates/admin_task_payment.html:16
 #: app/templates/admin_task_payment.html:67 app/templates/user.html:29
-#: app/views/auth.py:55
+#: app/views/auth.py:56
 msgid "Number"
 msgstr "座號"
 
-#: app/templates/admin_course_list.html:67
+#: app/templates/admin_course_list.html:68
 #: app/templates/admin_task_payment.html:17
 #: app/templates/admin_task_payment.html:68 app/templates/user.html:14
-#: app/views/admin.py:50
+#: app/views/admin.py:51
 msgid "Name"
 msgstr "姓名"
 
-#: app/templates/admin_course_list.html:68
+#: app/templates/admin_course_list.html:69
 #: app/templates/create_selection.html:39 app/templates/selection.html:20
 msgid "Order"
 msgstr "順序"
 
-#: app/templates/admin_course_list.html:69 app/views/main.py:75
+#: app/templates/admin_course_list.html:70 app/views/main.py:75
 msgid "Parent name"
 msgstr "家長姓名"
 
-#: app/templates/admin_course_list.html:70 app/views/main.py:77
+#: app/templates/admin_course_list.html:71 app/views/main.py:77
 msgid "Parent phone"
 msgstr "家長電話"
 
-#: app/templates/admin_course_list.html:82 app/templates/selection.html:41
+#: app/templates/admin_course_list.html:83 app/templates/selection.html:41
 msgid "Waiting"
 msgstr "備取"
 
 #: app/templates/admin_course_view.html:4 app/templates/layout/menu.html:42
+#: app/templates/layout/nav.html:60
 msgid "Course view"
 msgstr "課程檢視"
 
@@ -122,59 +130,60 @@ msgstr "課程檢視"
 msgid "Course edit"
 msgstr "課程編輯"
 
-#: app/templates/admin_course_view.html:78 app/views/auth.py:51
+#: app/templates/admin_course_view.html:79 app/views/auth.py:52
 msgid "1st grade"
 msgstr "1 年級"
 
-#: app/templates/admin_course_view.html:79 app/views/auth.py:51
+#: app/templates/admin_course_view.html:80 app/views/auth.py:52
 msgid "2nd grade"
 msgstr "2 年級"
 
-#: app/templates/admin_course_view.html:80 app/views/auth.py:51
+#: app/templates/admin_course_view.html:81 app/views/auth.py:52
 msgid "3rd grade"
 msgstr "3 年級"
 
-#: app/templates/admin_course_view.html:81 app/views/auth.py:51
+#: app/templates/admin_course_view.html:82 app/views/auth.py:52
 msgid "4th grade"
 msgstr "4 年級"
 
-#: app/templates/admin_course_view.html:82 app/views/auth.py:51
+#: app/templates/admin_course_view.html:83 app/views/auth.py:52
 msgid "5th grade"
 msgstr "5 年級"
 
-#: app/templates/admin_course_view.html:83 app/views/auth.py:51
+#: app/templates/admin_course_view.html:84 app/views/auth.py:52
 msgid "6th grade"
 msgstr "6 年級"
 
-#: app/templates/admin_course_view.html:84
+#: app/templates/admin_course_view.html:85
 msgid "Dance class"
 msgstr "舞蹈班"
 
-#: app/templates/admin_course_view.html:85 app/views/auth.py:51
+#: app/templates/admin_course_view.html:86 app/views/auth.py:52
 msgid "Kindergarten"
 msgstr "幼兒園"
 
-#: app/templates/admin_course_view.html:86
+#: app/templates/admin_course_view.html:87
 msgid "Harmonica"
 msgstr "口琴"
 
-#: app/templates/admin_course_view.html:87
+#: app/templates/admin_course_view.html:88
 msgid "Piano"
 msgstr "鋼琴"
 
-#: app/templates/admin_course_view.html:88
+#: app/templates/admin_course_view.html:89
 msgid "Dance class & Piano"
 msgstr "舞蹈班與鋼琴"
 
-#: app/templates/admin_course_view.html:89
+#: app/templates/admin_course_view.html:90
 msgid "Harmonica & Piano"
 msgstr "口琴與鋼琴"
 
-#: app/templates/admin_course_view.html:90
+#: app/templates/admin_course_view.html:91
 msgid "Dance class & Harmonica"
 msgstr "舞蹈班與口琴"
 
 #: app/templates/admin_task.html:3 app/templates/layout/menu.html:46
+#: app/templates/layout/nav.html:66
 msgid "Task"
 msgstr "工作"
 
@@ -186,7 +195,7 @@ msgstr "統計"
 msgid "Tools"
 msgstr "工具"
 
-#: app/templates/admin_task.html:42 app/views/admin.py:80 app/views/admin.py:87
+#: app/templates/admin_task.html:42 app/views/admin.py:81 app/views/admin.py:88
 msgid "Upload"
 msgstr "上傳"
 
@@ -220,13 +229,14 @@ msgstr "繳費清單"
 #: app/templates/admin_task_history_list.html:16
 #: app/templates/admin_task_payment.html:32
 #: app/templates/create_selection.html:23 app/templates/selection.html:18
-#: app/views/admin.py:70
+#: app/views/admin.py:71
 msgid "Date time"
 msgstr "日期時間"
 
 #: app/templates/admin_task_history_list.html:17
 #: app/templates/layout/menu.html:34 app/templates/layout/menu.html:60
-#: app/templates/user.html:3 app/templates/user.html:7 app/views/admin.py:195
+#: app/templates/layout/nav.html:41 app/templates/layout/nav.html:87
+#: app/templates/user.html:3 app/templates/user.html:7 app/views/admin.py:196
 msgid "User"
 msgstr "使用者"
 
@@ -239,17 +249,18 @@ msgid "IP"
 msgstr "來源位址"
 
 #: app/templates/admin_task_payment.html:18 app/templates/user.html:34
-#: app/views/admin.py:60
+#: app/views/admin.py:61
 msgid "Tag"
 msgstr "備註"
 
 #: app/templates/admin_task_payment.html:23 app/templates/layout/menu.html:30
-#: app/templates/layout/menu.html:56 app/templates/selection.html:5
+#: app/templates/layout/menu.html:56 app/templates/layout/nav.html:35
+#: app/templates/layout/nav.html:81 app/templates/selection.html:5
 msgid "Selected courses"
 msgstr "已選課程"
 
 #: app/templates/admin_task_payment.html:33 app/templates/selection.html:19
-#: app/views/admin.py:56
+#: app/views/admin.py:57
 msgid "Price"
 msgstr "費用"
 
@@ -278,56 +289,56 @@ msgid "Contact information"
 msgstr "聯絡資訊"
 
 #: app/templates/course.html:37 app/templates/course_list.html:34
-#: app/templates/create_selection.html:19 app/views/admin.py:64
+#: app/templates/create_selection.html:19 app/views/admin.py:65
 msgid "Grades"
 msgstr "年級"
 
-#: app/templates/course.html:52 app/templates/selection.html:53
+#: app/templates/course.html:54 app/templates/selection.html:53
 msgid "Deselect"
 msgstr "取消選擇"
 
-#: app/templates/course.html:54
+#: app/templates/course.html:56
 msgid "Select"
 msgstr "選擇"
 
-#: app/templates/course.html:57 app/templates/create_selection.html:40
+#: app/templates/course.html:59 app/templates/create_selection.html:40
 msgid "Not applied"
 msgstr "不適用"
 
-#: app/templates/course.html:89
+#: app/templates/course.html:92
 msgid "Are you sure to select this course?"
 msgstr "您確定要選取這個課程？"
 
-#: app/templates/course.html:92 app/templates/course.html:116
-#: app/templates/selection.html:128
+#: app/templates/course.html:95 app/templates/course.html:119
+#: app/templates/selection.html:129
 msgid "Yes"
 msgstr "是"
 
-#: app/templates/course.html:96 app/templates/course.html:120
-#: app/templates/selection.html:132
+#: app/templates/course.html:99 app/templates/course.html:123
+#: app/templates/selection.html:133
 msgid "No"
 msgstr "否"
 
-#: app/templates/course.html:113 app/templates/selection.html:125
+#: app/templates/course.html:116 app/templates/selection.html:126
 msgid "Are you sure to deselect this course?"
 msgstr "您確定要取消選取這個課程？"
 
 #: app/templates/course_list.html:3 app/templates/course_list.html:7
-#: app/templates/layout/menu.html:19
+#: app/templates/layout/menu.html:19 app/templates/layout/nav.html:20
 msgid "Course information"
 msgstr "課程資訊"
 
 #: app/templates/create_selection.html:4 app/templates/create_selection.html:8
 #: app/templates/selection.html:8 app/templates/selection.html:21
-#: app/views/admin.py:197
+#: app/views/admin.py:198
 msgid "Selection"
 msgstr "選擇"
 
-#: app/templates/create_selection.html:27 app/views/admin.py:72
+#: app/templates/create_selection.html:27 app/views/admin.py:73
 msgid "State"
 msgstr "狀態"
 
-#: app/templates/error.html:3 app/views/auth.py:85 app/views/main.py:48
+#: app/templates/error.html:3 app/views/auth.py:86 app/views/main.py:48
 msgid "Error"
 msgstr "錯誤"
 
@@ -335,8 +346,8 @@ msgstr "錯誤"
 msgid "Precautions"
 msgstr "注意事項"
 
-#: app/templates/layout/menu.html:9 app/templates/login.html:4
-#: app/templates/login.html:8 app/views/auth.py:63
+#: app/templates/layout/menu.html:9 app/templates/layout/nav.html:12
+#: app/templates/login.html:4 app/templates/login.html:8 app/views/auth.py:64
 msgid "Login"
 msgstr "登入"
 
@@ -380,7 +391,7 @@ msgstr "週日"
 msgid "Remote address"
 msgstr "遠端位址"
 
-#: app/templates/layout/menu.html:4
+#: app/templates/layout/menu.html:4 app/templates/layout/nav.html:5
 msgid "Logout"
 msgstr "登出"
 
@@ -389,11 +400,11 @@ msgid "Home"
 msgstr "首頁"
 
 #: app/templates/layout/menu.html:26 app/templates/layout/menu.html:52
+#: app/templates/layout/nav.html:29 app/templates/layout/nav.html:75
 msgid "Sign up for courses"
 msgstr "報名課程"
 
 #: app/templates/layout/mobile.html:8 app/templates/layout/mobile.html:46
-#: app/templates/layout/mobile.html:73
 msgid "Signup for After School Community"
 msgstr "課後社團報名"
 
@@ -401,118 +412,114 @@ msgstr "課後社團報名"
 msgid "Toggle navigation"
 msgstr "切換瀏覽"
 
-#: app/templates/layout/mobile.html:53
-msgid "About"
-msgstr "關於"
-
-#: app/templates/layout/mobile.html:56
-msgid "Services"
-msgstr "服務"
-
-#: app/templates/layout/mobile.html:59
-msgid "Contact"
-msgstr "聯絡"
-
-#: app/templates/layout/mobile.html:124
+#: app/templates/layout/mobile.html:108
 msgid "Information Technology Section"
 msgstr "資訊組"
 
-#: app/views/admin.py:52
+#: app/templates/layout/mobile.html:108
+msgid "Contact"
+msgstr "聯絡"
+
+#: app/templates/layout/nav.html:47
+msgid "Administrator"
+msgstr "管理者"
+
+#: app/views/admin.py:53
 msgid "Description"
 msgstr "描述"
 
-#: app/views/admin.py:54
+#: app/views/admin.py:55
 msgid "Classroom"
 msgstr "教室"
 
-#: app/views/admin.py:58
+#: app/views/admin.py:59
 msgid "Teacher"
 msgstr "教師"
 
-#: app/views/admin.py:62
+#: app/views/admin.py:63
 msgid "Teacher phone"
 msgstr "教師電話"
 
-#: app/views/admin.py:73 app/views/main.py:79
+#: app/views/admin.py:74 app/views/main.py:79
 msgid "Update"
 msgstr "更新"
 
-#: app/views/admin.py:77 app/views/admin.py:84
+#: app/views/admin.py:78 app/views/admin.py:85
 msgid "CSV file"
 msgstr "CSV 檔案"
 
-#: app/views/admin.py:78 app/views/admin.py:85
+#: app/views/admin.py:79 app/views/admin.py:86
 msgid "CSV only!"
 msgstr "僅允許 CSV 檔案！"
 
-#: app/views/admin.py:79 app/views/admin.py:86
+#: app/views/admin.py:80 app/views/admin.py:87
 msgid "Replace"
 msgstr "取代"
 
-#: app/views/admin.py:176
+#: app/views/admin.py:177
 msgid "Course information has been updated!"
 msgstr "課程資訊已經更新！"
 
-#: app/views/admin.py:230
+#: app/views/admin.py:231
 msgid "Course has been uploaded!"
 msgstr "課程已完成上傳！"
 
-#: app/views/admin.py:234 app/views/admin.py:270
+#: app/views/admin.py:235 app/views/admin.py:271
 msgid "ERROR: Failed to upload!"
 msgstr "錯誤：上傳失敗！"
 
-#: app/views/admin.py:266
+#: app/views/admin.py:267
 msgid "User has been uploaded!"
 msgstr "使用者已完成上傳"
 
-#: app/views/auth.py:26 app/views/auth.py:33 app/views/main.py:29
+#: app/views/auth.py:27 app/views/auth.py:34 app/views/main.py:29
 #: app/views/main.py:36
 msgid "This is not a registration time!"
 msgstr "現在不是報名時間！"
 
-#: app/views/auth.py:27 app/views/auth.py:34 app/views/main.py:30
+#: app/views/auth.py:28 app/views/auth.py:35 app/views/main.py:30
 #: app/views/main.py:37
 msgid "Begin time: "
 msgstr "開始時間："
 
-#: app/views/auth.py:29 app/views/auth.py:36 app/views/main.py:32
+#: app/views/auth.py:30 app/views/auth.py:37 app/views/main.py:32
 #: app/views/main.py:39
 msgid "End time: "
 msgstr "結束時間："
 
-#: app/views/auth.py:53
+#: app/views/auth.py:54
 msgid "Penguin"
 msgstr "企鵝班"
 
-#: app/views/auth.py:53
+#: app/views/auth.py:54
 msgid "Rabbit"
 msgstr "白兔班"
 
-#: app/views/auth.py:53
+#: app/views/auth.py:54
 msgid "Zebra"
 msgstr "斑馬班"
 
-#: app/views/auth.py:55
+#: app/views/auth.py:56
 msgid "1, 2, ..."
 msgstr "1、2、..."
 
-#: app/views/auth.py:61
+#: app/views/auth.py:62
 msgid "Password"
 msgstr "密碼"
 
-#: app/views/auth.py:61
+#: app/views/auth.py:62
 msgid "Last 4 digits"
 msgstr "身分證後四碼"
 
-#: app/views/auth.py:113
+#: app/views/auth.py:114
 msgid "Invalid Username or Password!"
 msgstr "無效的「使用者名稱」或「密碼」！"
 
-#: app/views/auth.py:121
+#: app/views/auth.py:122
 msgid "You have logged in!"
 msgstr "您已經登入！"
 
-#: app/views/auth.py:141
+#: app/views/auth.py:142
 msgid "You have logged out!"
 msgstr "您已經登出！"
 
@@ -532,31 +539,37 @@ msgstr "06-2133007 或 0912-345678"
 msgid "Parent profile updated!"
 msgstr "家長資訊已更新！"
 
-#: app/views/main.py:257
+#: app/views/main.py:258
 msgid "ERROR: Course cannot be selected!"
 msgstr "錯誤：無法選取此課程！"
 
-#: app/views/main.py:263
+#: app/views/main.py:264
 msgid "ERROR: Grade is not in course!"
 msgstr "錯誤：年級不適用此課程！"
 
-#: app/views/main.py:270
+#: app/views/main.py:271
 msgid "WARNING: You have selected this course!"
 msgstr "警告：您已經選擇此課程了！"
 
-#: app/views/main.py:281
+#: app/views/main.py:282
 msgid "ERROR: Date time conflicted!"
 msgstr "錯誤：日期時間衝突！"
 
-#: app/views/main.py:287
+#: app/views/main.py:288
 msgid "You selected this course."
 msgstr "您選擇了此課程。"
 
-#: app/views/main.py:318
+#: app/views/main.py:319
 msgid "ERROR: You did not select this course!"
 msgstr "錯誤：您並未選取此課程！"
 
-#: app/views/main.py:322
+#: app/views/main.py:323
 msgid "You have deselected this course."
 msgstr "您取消選取此課程！"
+
+#~ msgid "About"
+#~ msgstr "關於"
+
+#~ msgid "Services"
+#~ msgstr "服務"
 

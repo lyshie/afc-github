@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/build.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/shop-homepage.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/richtext.min.css') }}">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/3.4.1/flatly/bootstrap.min.css" integrity="sha384-bfWZLPtvQKHg/nZNhaO/ZW4Ba8ISud5CtEjnCTU6OR1yOq5zrrF+JP2o7om6rzLf" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/print.css') }}" media="print">
 
         <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
@@ -38,27 +37,19 @@
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main">
                         <span class="sr-only">{{ _('Toggle navigation') }}</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{ url_for('index') }}">{{ config['SCHOOL_NAME'] }} {{ _('Signup for After School Community') }}</a>
+                    <a class="navbar-brand" href="{{ url_for('index') }}">{{ _('Signup for After School Community') }}</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="navbar-main">
                     <ul class="nav navbar-nav">
-                        <li>
-                            <a href="{{ config['SCHOOL_URL'] }}" target="_blank">{{ _('About') }}</a>
-                        </li>
-                        <li>
-                            <a href="{{ config['SCHOOL_HELP_URL'] }}" target="_blank">{{ _('Services') }}</a>
-                        </li>
-                        <li>
-                            <a href="{{ url_for('contact') }}">{{ _('Contact') }}</a>
-                        </li>
+                        {% include 'layout/nav.html' %}
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -70,15 +61,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-3 col-md-push-9 noprint">
-                    <p class="lead">{{ _('Signup for After School Community') }}</p>
-                    <div class="list-group">
-                        {% include 'layout/menu.html' %}
-                    </div>
-                </div>
-                <!-- col-md-3 -->
-
-                <div class="col-md-9 col-md-pull-3">
+                <div class="col-md-10 col-md-offset-1">
 
                     <div class="row">
                         <div id="content">
@@ -122,7 +105,7 @@
             <footer>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>Copyright &copy; <a href="{{ config['SCHOOL_URL'] }}" target="_blank">{{ config['SCHOOL_NAME'] }}</a> <a href="{{ config['SCHOOL_IT_URL'] }}" target="_blank">{{ _('Information Technology Section') }}</a> 2016</p>
+                        <p>Copyright &copy; <a href="{{ config['SCHOOL_URL'] }}" target="_blank">{{ config['SCHOOL_NAME'] }}</a> <a href="{{ config['SCHOOL_IT_URL'] }}" target="_blank">{{ _('Information Technology Section') }}</a> 2016~2019 | <a href="{{ url_for('contact') }}">{{ _('Contact') }}</a></p>
                         <div>Free icons from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                     </div>
                 </div>

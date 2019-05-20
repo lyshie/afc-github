@@ -1,119 +1,127 @@
 # Translations template for PROJECT.
-# Copyright (C) 2017 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-02-19 11:23+0800\n"
+"POT-Creation-Date: 2019-05-20 20:35+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.6.0\n"
 
-#: app/__init__.py:127 app/views/admin.py:72
+#: app/__init__.py:129 app/views/admin.py:73
 msgid "Normal"
 msgstr ""
 
-#: app/__init__.py:128 app/templates/course.html:48
-#: app/templates/course_list.html:45 app/views/admin.py:72
+#: app/__init__.py:130 app/templates/course.html:50
+#: app/templates/course_list.html:47 app/views/admin.py:73
 msgid "Suspended"
 msgstr ""
 
-#: app/__init__.py:129 app/views/admin.py:72
+#: app/__init__.py:131 app/views/admin.py:73
 msgid "Test"
 msgstr ""
 
 #: app/templates/admin_course_list.html:4 app/templates/layout/menu.html:38
+#: app/templates/layout/nav.html:54
 msgid "Course list"
 msgstr ""
 
 #: app/templates/admin_course_list.html:40
-#: app/templates/admin_task_history_list.html:49 app/templates/course.html:80
-#: app/templates/course_list.html:80 app/templates/selection.html:117
+#: app/templates/admin_task_history_list.html:49 app/templates/course.html:82
+#: app/templates/course_list.html:82 app/templates/selection.html:117
+msgid "No data available in table"
+msgstr ""
+
+#: app/templates/admin_course_list.html:41
+#: app/templates/admin_task_history_list.html:50 app/templates/course.html:83
+#: app/templates/course_list.html:83 app/templates/selection.html:118
 msgid "Search in table:"
 msgstr ""
 
-#: app/templates/admin_course_list.html:50
+#: app/templates/admin_course_list.html:51
 msgid "Student list"
 msgstr ""
 
-#: app/templates/admin_course_list.html:57
+#: app/templates/admin_course_list.html:58
 #: app/templates/admin_task_payment.html:31 app/templates/course.html:3
 #: app/templates/course.html:10 app/templates/create_selection.html:15
-#: app/templates/selection.html:17 app/views/admin.py:43 app/views/admin.py:48
-#: app/views/admin.py:196
+#: app/templates/selection.html:17 app/views/admin.py:44 app/views/admin.py:49
+#: app/views/admin.py:197
 msgid "Course"
 msgstr ""
 
-#: app/templates/admin_course_list.html:58
-#: app/templates/create_selection.html:31 app/views/admin.py:68
+#: app/templates/admin_course_list.html:59
+#: app/templates/create_selection.html:31 app/views/admin.py:69
 msgid "Lower limit"
 msgstr ""
 
-#: app/templates/admin_course_list.html:59
-#: app/templates/create_selection.html:35 app/views/admin.py:66
+#: app/templates/admin_course_list.html:60
+#: app/templates/create_selection.html:35 app/views/admin.py:67
 msgid "Upper limit"
 msgstr ""
 
-#: app/templates/admin_course_list.html:63
+#: app/templates/admin_course_list.html:64
 #: app/templates/admin_task_history_list.html:15
 #: app/templates/selection.html:16
 msgid "No."
 msgstr ""
 
-#: app/templates/admin_course_list.html:64
+#: app/templates/admin_course_list.html:65
 #: app/templates/admin_task_payment.html:14
 #: app/templates/admin_task_payment.html:65 app/templates/user.html:19
-#: app/views/auth.py:51
+#: app/views/auth.py:52
 msgid "Grade"
 msgstr ""
 
-#: app/templates/admin_course_list.html:65
+#: app/templates/admin_course_list.html:66
 #: app/templates/admin_task_payment.html:15
 #: app/templates/admin_task_payment.html:66 app/templates/user.html:24
-#: app/views/auth.py:53
+#: app/views/auth.py:54
 msgid "Class"
 msgstr ""
 
-#: app/templates/admin_course_list.html:66
+#: app/templates/admin_course_list.html:67
 #: app/templates/admin_task_payment.html:16
 #: app/templates/admin_task_payment.html:67 app/templates/user.html:29
-#: app/views/auth.py:55
+#: app/views/auth.py:56
 msgid "Number"
 msgstr ""
 
-#: app/templates/admin_course_list.html:67
+#: app/templates/admin_course_list.html:68
 #: app/templates/admin_task_payment.html:17
 #: app/templates/admin_task_payment.html:68 app/templates/user.html:14
-#: app/views/admin.py:50
+#: app/views/admin.py:51
 msgid "Name"
 msgstr ""
 
-#: app/templates/admin_course_list.html:68
+#: app/templates/admin_course_list.html:69
 #: app/templates/create_selection.html:39 app/templates/selection.html:20
 msgid "Order"
 msgstr ""
 
-#: app/templates/admin_course_list.html:69 app/views/main.py:75
+#: app/templates/admin_course_list.html:70 app/views/main.py:75
 msgid "Parent name"
 msgstr ""
 
-#: app/templates/admin_course_list.html:70 app/views/main.py:77
+#: app/templates/admin_course_list.html:71 app/views/main.py:77
 msgid "Parent phone"
 msgstr ""
 
-#: app/templates/admin_course_list.html:82 app/templates/selection.html:41
+#: app/templates/admin_course_list.html:83 app/templates/selection.html:41
 msgid "Waiting"
 msgstr ""
 
 #: app/templates/admin_course_view.html:4 app/templates/layout/menu.html:42
+#: app/templates/layout/nav.html:60
 msgid "Course view"
 msgstr ""
 
@@ -121,59 +129,60 @@ msgstr ""
 msgid "Course edit"
 msgstr ""
 
-#: app/templates/admin_course_view.html:78 app/views/auth.py:51
+#: app/templates/admin_course_view.html:79 app/views/auth.py:52
 msgid "1st grade"
 msgstr ""
 
-#: app/templates/admin_course_view.html:79 app/views/auth.py:51
+#: app/templates/admin_course_view.html:80 app/views/auth.py:52
 msgid "2nd grade"
 msgstr ""
 
-#: app/templates/admin_course_view.html:80 app/views/auth.py:51
+#: app/templates/admin_course_view.html:81 app/views/auth.py:52
 msgid "3rd grade"
 msgstr ""
 
-#: app/templates/admin_course_view.html:81 app/views/auth.py:51
+#: app/templates/admin_course_view.html:82 app/views/auth.py:52
 msgid "4th grade"
 msgstr ""
 
-#: app/templates/admin_course_view.html:82 app/views/auth.py:51
+#: app/templates/admin_course_view.html:83 app/views/auth.py:52
 msgid "5th grade"
 msgstr ""
 
-#: app/templates/admin_course_view.html:83 app/views/auth.py:51
+#: app/templates/admin_course_view.html:84 app/views/auth.py:52
 msgid "6th grade"
 msgstr ""
 
-#: app/templates/admin_course_view.html:84
+#: app/templates/admin_course_view.html:85
 msgid "Dance class"
 msgstr ""
 
-#: app/templates/admin_course_view.html:85 app/views/auth.py:51
+#: app/templates/admin_course_view.html:86 app/views/auth.py:52
 msgid "Kindergarten"
 msgstr ""
 
-#: app/templates/admin_course_view.html:86
+#: app/templates/admin_course_view.html:87
 msgid "Harmonica"
 msgstr ""
 
-#: app/templates/admin_course_view.html:87
+#: app/templates/admin_course_view.html:88
 msgid "Piano"
 msgstr ""
 
-#: app/templates/admin_course_view.html:88
+#: app/templates/admin_course_view.html:89
 msgid "Dance class & Piano"
 msgstr ""
 
-#: app/templates/admin_course_view.html:89
+#: app/templates/admin_course_view.html:90
 msgid "Harmonica & Piano"
 msgstr ""
 
-#: app/templates/admin_course_view.html:90
+#: app/templates/admin_course_view.html:91
 msgid "Dance class & Harmonica"
 msgstr ""
 
 #: app/templates/admin_task.html:3 app/templates/layout/menu.html:46
+#: app/templates/layout/nav.html:66
 msgid "Task"
 msgstr ""
 
@@ -185,7 +194,7 @@ msgstr ""
 msgid "Tools"
 msgstr ""
 
-#: app/templates/admin_task.html:42 app/views/admin.py:80 app/views/admin.py:87
+#: app/templates/admin_task.html:42 app/views/admin.py:81 app/views/admin.py:88
 msgid "Upload"
 msgstr ""
 
@@ -219,13 +228,14 @@ msgstr ""
 #: app/templates/admin_task_history_list.html:16
 #: app/templates/admin_task_payment.html:32
 #: app/templates/create_selection.html:23 app/templates/selection.html:18
-#: app/views/admin.py:70
+#: app/views/admin.py:71
 msgid "Date time"
 msgstr ""
 
 #: app/templates/admin_task_history_list.html:17
 #: app/templates/layout/menu.html:34 app/templates/layout/menu.html:60
-#: app/templates/user.html:3 app/templates/user.html:7 app/views/admin.py:195
+#: app/templates/layout/nav.html:41 app/templates/layout/nav.html:87
+#: app/templates/user.html:3 app/templates/user.html:7 app/views/admin.py:196
 msgid "User"
 msgstr ""
 
@@ -238,17 +248,18 @@ msgid "IP"
 msgstr ""
 
 #: app/templates/admin_task_payment.html:18 app/templates/user.html:34
-#: app/views/admin.py:60
+#: app/views/admin.py:61
 msgid "Tag"
 msgstr ""
 
 #: app/templates/admin_task_payment.html:23 app/templates/layout/menu.html:30
-#: app/templates/layout/menu.html:56 app/templates/selection.html:5
+#: app/templates/layout/menu.html:56 app/templates/layout/nav.html:35
+#: app/templates/layout/nav.html:81 app/templates/selection.html:5
 msgid "Selected courses"
 msgstr ""
 
 #: app/templates/admin_task_payment.html:33 app/templates/selection.html:19
-#: app/views/admin.py:56
+#: app/views/admin.py:57
 msgid "Price"
 msgstr ""
 
@@ -277,56 +288,56 @@ msgid "Contact information"
 msgstr ""
 
 #: app/templates/course.html:37 app/templates/course_list.html:34
-#: app/templates/create_selection.html:19 app/views/admin.py:64
+#: app/templates/create_selection.html:19 app/views/admin.py:65
 msgid "Grades"
 msgstr ""
 
-#: app/templates/course.html:52 app/templates/selection.html:53
+#: app/templates/course.html:54 app/templates/selection.html:53
 msgid "Deselect"
 msgstr ""
 
-#: app/templates/course.html:54
+#: app/templates/course.html:56
 msgid "Select"
 msgstr ""
 
-#: app/templates/course.html:57 app/templates/create_selection.html:40
+#: app/templates/course.html:59 app/templates/create_selection.html:40
 msgid "Not applied"
 msgstr ""
 
-#: app/templates/course.html:89
+#: app/templates/course.html:92
 msgid "Are you sure to select this course?"
 msgstr ""
 
-#: app/templates/course.html:92 app/templates/course.html:116
-#: app/templates/selection.html:128
+#: app/templates/course.html:95 app/templates/course.html:119
+#: app/templates/selection.html:129
 msgid "Yes"
 msgstr ""
 
-#: app/templates/course.html:96 app/templates/course.html:120
-#: app/templates/selection.html:132
+#: app/templates/course.html:99 app/templates/course.html:123
+#: app/templates/selection.html:133
 msgid "No"
 msgstr ""
 
-#: app/templates/course.html:113 app/templates/selection.html:125
+#: app/templates/course.html:116 app/templates/selection.html:126
 msgid "Are you sure to deselect this course?"
 msgstr ""
 
 #: app/templates/course_list.html:3 app/templates/course_list.html:7
-#: app/templates/layout/menu.html:19
+#: app/templates/layout/menu.html:19 app/templates/layout/nav.html:20
 msgid "Course information"
 msgstr ""
 
 #: app/templates/create_selection.html:4 app/templates/create_selection.html:8
 #: app/templates/selection.html:8 app/templates/selection.html:21
-#: app/views/admin.py:197
+#: app/views/admin.py:198
 msgid "Selection"
 msgstr ""
 
-#: app/templates/create_selection.html:27 app/views/admin.py:72
+#: app/templates/create_selection.html:27 app/views/admin.py:73
 msgid "State"
 msgstr ""
 
-#: app/templates/error.html:3 app/views/auth.py:85 app/views/main.py:48
+#: app/templates/error.html:3 app/views/auth.py:86 app/views/main.py:48
 msgid "Error"
 msgstr ""
 
@@ -334,8 +345,8 @@ msgstr ""
 msgid "Precautions"
 msgstr ""
 
-#: app/templates/layout/menu.html:9 app/templates/login.html:4
-#: app/templates/login.html:8 app/views/auth.py:63
+#: app/templates/layout/menu.html:9 app/templates/layout/nav.html:12
+#: app/templates/login.html:4 app/templates/login.html:8 app/views/auth.py:64
 msgid "Login"
 msgstr ""
 
@@ -379,7 +390,7 @@ msgstr ""
 msgid "Remote address"
 msgstr ""
 
-#: app/templates/layout/menu.html:4
+#: app/templates/layout/menu.html:4 app/templates/layout/nav.html:5
 msgid "Logout"
 msgstr ""
 
@@ -388,11 +399,11 @@ msgid "Home"
 msgstr ""
 
 #: app/templates/layout/menu.html:26 app/templates/layout/menu.html:52
+#: app/templates/layout/nav.html:29 app/templates/layout/nav.html:75
 msgid "Sign up for courses"
 msgstr ""
 
 #: app/templates/layout/mobile.html:8 app/templates/layout/mobile.html:46
-#: app/templates/layout/mobile.html:73
 msgid "Signup for After School Community"
 msgstr ""
 
@@ -400,118 +411,114 @@ msgstr ""
 msgid "Toggle navigation"
 msgstr ""
 
-#: app/templates/layout/mobile.html:53
-msgid "About"
-msgstr ""
-
-#: app/templates/layout/mobile.html:56
-msgid "Services"
-msgstr ""
-
-#: app/templates/layout/mobile.html:59
-msgid "Contact"
-msgstr ""
-
-#: app/templates/layout/mobile.html:124
+#: app/templates/layout/mobile.html:108
 msgid "Information Technology Section"
 msgstr ""
 
-#: app/views/admin.py:52
+#: app/templates/layout/mobile.html:108
+msgid "Contact"
+msgstr ""
+
+#: app/templates/layout/nav.html:47
+msgid "Administrator"
+msgstr ""
+
+#: app/views/admin.py:53
 msgid "Description"
 msgstr ""
 
-#: app/views/admin.py:54
+#: app/views/admin.py:55
 msgid "Classroom"
 msgstr ""
 
-#: app/views/admin.py:58
+#: app/views/admin.py:59
 msgid "Teacher"
 msgstr ""
 
-#: app/views/admin.py:62
+#: app/views/admin.py:63
 msgid "Teacher phone"
 msgstr ""
 
-#: app/views/admin.py:73 app/views/main.py:79
+#: app/views/admin.py:74 app/views/main.py:79
 msgid "Update"
 msgstr ""
 
-#: app/views/admin.py:77 app/views/admin.py:84
+#: app/views/admin.py:78 app/views/admin.py:85
 msgid "CSV file"
 msgstr ""
 
-#: app/views/admin.py:78 app/views/admin.py:85
+#: app/views/admin.py:79 app/views/admin.py:86
 msgid "CSV only!"
 msgstr ""
 
-#: app/views/admin.py:79 app/views/admin.py:86
+#: app/views/admin.py:80 app/views/admin.py:87
 msgid "Replace"
 msgstr ""
 
-#: app/views/admin.py:176
+#: app/views/admin.py:177
 msgid "Course information has been updated!"
 msgstr ""
 
-#: app/views/admin.py:230
+#: app/views/admin.py:231
 msgid "Course has been uploaded!"
 msgstr ""
 
-#: app/views/admin.py:234 app/views/admin.py:270
+#: app/views/admin.py:235 app/views/admin.py:271
 msgid "ERROR: Failed to upload!"
 msgstr ""
 
-#: app/views/admin.py:266
+#: app/views/admin.py:267
 msgid "User has been uploaded!"
 msgstr ""
 
-#: app/views/auth.py:26 app/views/auth.py:33 app/views/main.py:29
+#: app/views/auth.py:27 app/views/auth.py:34 app/views/main.py:29
 #: app/views/main.py:36
 msgid "This is not a registration time!"
 msgstr ""
 
-#: app/views/auth.py:27 app/views/auth.py:34 app/views/main.py:30
+#: app/views/auth.py:28 app/views/auth.py:35 app/views/main.py:30
 #: app/views/main.py:37
 msgid "Begin time: "
 msgstr ""
 
-#: app/views/auth.py:29 app/views/auth.py:36 app/views/main.py:32
+#: app/views/auth.py:30 app/views/auth.py:37 app/views/main.py:32
 #: app/views/main.py:39
 msgid "End time: "
 msgstr ""
 
-#: app/views/auth.py:53
+#: app/views/auth.py:54
 msgid "Penguin"
 msgstr ""
 
-#: app/views/auth.py:53
+#: app/views/auth.py:54
 msgid "Rabbit"
 msgstr ""
 
-#: app/views/auth.py:53
+#: app/views/auth.py:54
 msgid "Zebra"
 msgstr ""
 
-#: app/views/auth.py:55
+#: app/views/auth.py:56
 msgid "1, 2, ..."
 msgstr ""
 
-#: app/views/auth.py:61
+#: app/views/auth.py:62
 msgid "Password"
 msgstr ""
 
-#: app/views/auth.py:61
+#: app/views/auth.py:62
 msgid "Last 4 digits"
 msgstr ""
 
-#: app/views/auth.py:113
+#: app/views/auth.py:114
 msgid "Invalid Username or Password!"
 msgstr ""
 
-#: app/views/auth.py:121
+#: app/views/auth.py:122
 msgid "You have logged in!"
 msgstr ""
 
-#: app/views/auth.py:141
+#: app/views/auth.py:142
 msgid "You have logged out!"
 msgstr ""
 
@@ -531,31 +538,31 @@ msgstr ""
 msgid "Parent profile updated!"
 msgstr ""
 
-#: app/views/main.py:257
+#: app/views/main.py:258
 msgid "ERROR: Course cannot be selected!"
 msgstr ""
 
-#: app/views/main.py:263
+#: app/views/main.py:264
 msgid "ERROR: Grade is not in course!"
 msgstr ""
 
-#: app/views/main.py:270
+#: app/views/main.py:271
 msgid "WARNING: You have selected this course!"
 msgstr ""
 
-#: app/views/main.py:281
+#: app/views/main.py:282
 msgid "ERROR: Date time conflicted!"
 msgstr ""
 
-#: app/views/main.py:287
+#: app/views/main.py:288
 msgid "You selected this course."
 msgstr ""
 
-#: app/views/main.py:318
+#: app/views/main.py:319
 msgid "ERROR: You did not select this course!"
 msgstr ""
 
-#: app/views/main.py:322
+#: app/views/main.py:323
 msgid "You have deselected this course."
 msgstr ""
 
