@@ -5,13 +5,51 @@
             {{ _('Logout') }}
         </a>
     </li>
+<!-- begin of blink -->
+<script type="text/javascript">
+jQuery.noConflict();
+(function($) {
+    $(function() {
+        var blink = new Boolean(false);
+        setInterval(function() {
+            if (blink) {
+                $('#btn_course').addClass('bg-info');
+            }
+            else {
+                $('#btn_course').removeClass('bg-info');
+            }
+            blink = !blink;
+        }, 500);
+    });
+})(jQuery);
+</script>
+<!-- end of blink -->
 {% else %}
     <li>
-        <a href="{{ url_for('login') }}">
+        <a id="btn_login" href="{{ url_for('login') }}">
             <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
             {{ _('Login') }}
         </a>
     </li>
+<!-- begin of blink -->
+<script type="text/javascript">
+jQuery.noConflict();
+(function($) {
+    $(function() {
+        var blink = new Boolean(false);
+        setInterval(function() {
+            if (blink) {
+                $('#btn_login').addClass('bg-info');
+            }
+            else {
+                $('#btn_login').removeClass('bg-info');
+            }
+            blink = !blink;
+        }, 500);
+    });
+})(jQuery);
+</script>
+<!-- end of blink -->
 {% endif %}
 
     <li>
@@ -22,11 +60,10 @@
     </li>
 
 {% if g.user.uid == 0 %}
-    <!-- admin only -->
     <li>
-        <a href="{{ url_for('course') }}">
+        <a id="btn_course" href="{{ url_for('course') }}">
             <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-            <strong class="text-primary">{{ _('Sign up for courses') }}</strong>
+            {{ _('Sign up for courses') }}
         </a>
     </li>
     <li>
@@ -41,6 +78,7 @@
             {{ _('User') }}
         </a>
     </li>
+    <!-- admin only -->
     <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
             <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
@@ -67,6 +105,7 @@
                 </a>
             </li>
         </ul>
+    </li>
 {% else %}
     <!-- normal user -->
     <li>
