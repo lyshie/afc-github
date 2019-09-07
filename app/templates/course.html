@@ -15,7 +15,11 @@
         <div class="media-list">
         {% for c in courses %}
 
+        {% if (g.user.student_grade | string) in c.grades or (g.user.student_tag | string) in c.grades %}
             <div class="media" id="{{ c.cid }}">
+        {% else %}
+            <div class="media" id="{{ c.cid }}" style="opacity:0.1;">
+        {% endif %}
                  <div class="media-left">
                     <img class="media-object img-rounded" src="{{ url_for('static', filename='images/flaticons/') }}{{ c.name | iconfilter }}.png">
                 </div>
